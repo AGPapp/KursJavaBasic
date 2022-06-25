@@ -9,20 +9,11 @@ public class Zadanie5 {
         System.out.println("Введите арифметический оператор (+,-,*,/): ");
         String z = in.next();
         switch (z) {
-            case "+":
-                System.out.println(x + y);
-                break;
-            case "-":
-                System.out.println(x - y);
-                break;
-            case "*":
-                System.out.println(x * y);
-                break;
-            case "/":
-                System.out.println(x / y);
-            break;
-            default:
-                System.out.println("Оператор не известен");
+            case "+" -> System.out.println(x + y);
+            case "-" -> System.out.println(x - y);
+            case "*" -> System.out.println(x * y);
+            case "/" -> System.out.println(x / y);
+            default -> System.out.println("Оператор не известен");
         }
 
     }
